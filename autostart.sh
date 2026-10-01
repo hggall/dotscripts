@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-/usr/bin/dunst &
+pgrep dunst || /usr/bin/dunst &
 
 bash /home/hugo/.scripts/dwlbar.sh
